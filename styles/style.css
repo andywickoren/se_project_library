@@ -265,7 +265,7 @@
   font-weight: 400;
 }
 
-.staff__list {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -425,7 +425,6 @@
 .footer__column_content_social {
   margin-left: 100px;
 }
-
 .footer__logo {
   height: 21px;
   width: 116px;
@@ -456,6 +455,10 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+}
+
+.footer__column-link:hover {
+  color: #1f69c9;
 }
 
 .footer__social-icon {
